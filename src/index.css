@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: #f17c15;
+}
+div {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
